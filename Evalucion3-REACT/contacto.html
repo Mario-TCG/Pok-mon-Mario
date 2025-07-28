@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Pokémon TCG Elite</title>
+    <!-- Bootstrap 4.5.3 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar (igual que index.html) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagenes/406-4061127_facepunch-logo-hd-png-download.png" width="40" height="40" class="d-inline-block align-top" alt="Pokémon TCG Elite">
+                <span class="brand-name">Pokémon TCG Elite</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Productos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5 pt-5">
+        <div class="row mb-4">
+            <div class="col-12">
+                <h1>Contacto</h1>
+                <p class="lead">Estamos aquí para ayudarte con cualquier consulta</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Formulario de contacto -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Formulario de Contacto</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Información de contacto y mapa -->
+            <div class="col-md-6 mb-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Información de Contacto</h3>
+                        <address>
+                            <strong>Pokémon TCG Elite</strong><br>
+                            Calle Pokémon 151<br>
+                            Ciudad Paleta, Región Kanto<br>
+                            <abbr title="Teléfono">T:</abbr> +56 9 1234 5678
+                        </address>
+                        <h4 class="mt-4">Horario de Atención</h4>
+                        <p>Lunes a Viernes: 10:00 - 20:00<br>
+                        Sábados: 10:00 - 18:00<br>
+                        Domingos: Cerrado</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Ubicación</h3>
+                        <div style="width: 100%; height: 300px;">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.0326828657!2d-70.6482696848007!3d-33.45694098076956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59e6b6e4e2b%3A0x7e6e7e6e7e6e7e6e!2sPlaza%20de%20Armas%2C%20Santiago%2C%20Chile!5e0!3m2!1ses!2scl!4v1620000000000!5m2!1ses!2scl" 
+                                width="100%" 
+                                height="100%" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (igual que index.html) -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Pokémon TCG Elite. Todos los derechos reservados.</p>
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="#" class="text-white">Política de Privacidad</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Términos de Servicio</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
