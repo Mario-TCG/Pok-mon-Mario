@@ -1,6 +1,6 @@
 # Pok-mon-Mario   # 🃏 Pokémon TCG Shop - Evaluación React
 
-![Pokémon TCG Banner](https://raw.githubusercontent.com/Pok-mon-Mario/Mario-TCG/main/src/assets/images/banner.jpg)
+![Pokémon Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png)
 
 **Aplicación React** desarrollada como evaluación para el curso de Frontend, implementando una tienda virtual de cartas Pokémon TCG con funcionalidades básicas de e-commerce.
 
